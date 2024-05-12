@@ -1,0 +1,26 @@
+button.button-component {
+    display: flex;
+    align-items: center;
+    border: 1px #212227 solid;
+    background-color: transparent;
+    transition-duration: .3s;
+    color:  #212227;
+    border-radius: 7px;
+}
+button.button-component:hover {
+    background-color: #212227;
+    color: #E7D8C9;
+    cursor: pointer;
+}
+
+button.button-component svg {
+    padding: 5px 10px 5px 5px;
+    font-size: 18px;
+    color: inherit;
+}
+button.button-component span {
+    font-size: 15px;
+    color: inherit;
+}
+
+
